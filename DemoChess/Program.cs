@@ -13,7 +13,7 @@ namespace DemoChess
             Chess.Chess chess = new Chess.Chess();
             while (true)
             {
-                Console.WriteLine(chess.Fen);
+                Console.WriteLine(chess.fen);
                 Console.WriteLine(ChessToAscii(chess));
                 string move = Console.ReadLine();
                 if (move == "") break;
